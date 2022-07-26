@@ -45,9 +45,9 @@
          data-aos-duration="400"
          data-aos-easing="linear"
     >
-      <img
+      <v-lazy-image alt="Bracciali - Live Diamond" width="531" height="665"
           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/bracciali_WGxLpRosy.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658752425564"
-          class="block w-100">
+          class="block w-100" />
     </div>
   </div>
 </template>
@@ -58,6 +58,7 @@ import CarouselVue from "./Carousel.vue";
 import Typography from "./Typography.vue";
 import Text from "./Text.vue";
 import Link from "./Link.vue";
+import VLazyImage from "v-lazy-image";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -131,6 +132,7 @@ onMounted(() => {
     position: absolute;
     right: 0;
     width: 130%;
+    height: auto;
   }
 }
 

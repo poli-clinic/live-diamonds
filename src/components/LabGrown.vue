@@ -12,13 +12,13 @@
       </Typography>
     </div>
     <div class="lab-grown__1">
-      <img class="block w-100 mb-2"
+      <v-lazy-image class="block w-100 mb-2" alt="Lab Grown - Live Diamond" width="460" height="467"
            data-aos="zoom-out-up"
            data-aos-offset="300px"
            data-aos-delay="400"
            data-aos-duration="400"
            data-aos-easing="linear"
-           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/best_seller_wPlcMH35g.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658745030726">
+           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/best_seller_wPlcMH35g.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658745030726" />
       <div data-aos="zoom-in"
            data-aos-offset="300px"
            data-aos-delay="300"
@@ -33,13 +33,13 @@
 
     </div>
     <div class="lab-grown__2">
-      <img class="block w-100 mb-2"
+      <v-lazy-image class="block w-100 mb-2" alt="Lab Grown - Live Diamond" width="403" height="627"
            data-aos="zoom-out-up"
            data-aos-offset="300px"
            data-aos-delay="800"
            data-aos-duration="400"
            data-aos-easing="linear"
-           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/placeholder_VJRL9WOmp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658745487441">
+           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/placeholder_VJRL9WOmp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658745487441" />
       <div class="lab-grown-carousel mb-2">
         <CarouselVue :slide="slides"></CarouselVue>
       </div>
@@ -64,6 +64,7 @@ import CarouselVue from "./Carousel.vue";
 import Typography from "./Typography.vue";
 import Text from "./Text.vue";
 import Link from "./Link.vue";
+import VLazyImage from "v-lazy-image";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -121,6 +122,7 @@ onMounted(() => {
 
 .w-100 {
   width: 100%;
+  height: auto;
 }
 
 .block {

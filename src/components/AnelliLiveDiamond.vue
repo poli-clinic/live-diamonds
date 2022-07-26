@@ -16,14 +16,14 @@
           trilogy ed eternity in diverse carature per accompagnare gli attimi di una vita insieme.
         </Text>
       </div>
-      <img
+      <v-lazy-image alt="Anelli - Live Diamond" width="828" height="531"
           data-aos="zoom-out-up"
           data-aos-offset="300px"
           data-aos-delay="300"
           data-aos-duration="400"
           data-aos-easing="linear"
           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/anelli_1_yHutgSNL7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658751508982"
-          class="w-100 block anelli-image">
+          class="w-100 block anelli-image" />
       <div class="text-center"
            data-aos="zoom-in"
            data-aos-offset="300px"
@@ -37,14 +37,14 @@
       </div>
     </div>
     <div class="anelli__2">
-      <img
+      <v-lazy-image alt="Anelli - Live Diamond" width="552" height="552"
           data-aos="zoom-out-up"
           data-aos-offset="300px"
           data-aos-delay="200"
           data-aos-duration="400"
           data-aos-easing="linear"
           src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/anelli_2_yPuSNj8un.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658751509036"
-          class="w-100 block mb-2">
+          class="w-100 block mb-2" />
       <div class="anelli-carousel mb-2">
         <CarouselVue :slide="slides"></CarouselVue>
       </div>
@@ -58,6 +58,7 @@ import CarouselVue from "./Carousel.vue";
 import Typography from "./Typography.vue";
 import Text from "./Text.vue";
 import Link from "./Link.vue";
+import VLazyImage from "v-lazy-image";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -106,6 +107,7 @@ onMounted(() => {
 
 .w-100 {
   width: 100%;
+  height: auto;
 }
 
 .block {

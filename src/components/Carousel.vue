@@ -3,7 +3,7 @@
     <slide v-for="slide in slides" :key="slide">
       <div class="carousel__item">
         <a :href="slide.link">
-          <img ref="bg-slide" alt="{{ slide.title }}" title="{{ slide.title }}" :src="slide.image">
+          <img ref="bg-slide" alt="{{ slide.title }}" title="{{ slide.title }}" :src="slide.image" width="360" height="360">
         </a>
 
       </div>
