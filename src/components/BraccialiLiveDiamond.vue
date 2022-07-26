@@ -2,7 +2,7 @@
   <div class="bracciali">
     <div class="bracciali__1">
       <Typography :heading="2" data-aos="zoom-in"
-                  data-aos-offset="0"
+                  data-aos-offset="300px"
                   data-aos-delay="100"
                   data-aos-duration="400"
                   data-aos-easing="linear">
@@ -11,7 +11,7 @@
       <div class="bracciali__content">
         <div
             data-aos="zoom-in"
-            data-aos-offset="0"
+            data-aos-offset="300px"
             data-aos-delay="300"
             data-aos-duration="400"
             data-aos-easing="linear"
@@ -27,7 +27,7 @@
         </div>
         <div class="text-center"
              data-aos="zoom-in"
-             data-aos-offset="0"
+             data-aos-offset="300px"
              data-aos-delay="100"
              data-aos-duration="400"
              data-aos-easing="linear"
@@ -40,7 +40,7 @@
     </div>
     <div class="bracciali__image"
          data-aos="zoom-out-up"
-         data-aos-offset="0"
+         data-aos-offset="300px"
          data-aos-delay="200"
          data-aos-duration="400"
          data-aos-easing="linear"

@@ -6,7 +6,7 @@
         <img
             src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Hero_6ZiSMKKI7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658740032560"
             data-aos="zoom-out-up"
-            data-aos-offset="0"
+            data-aos-offset="300px"
             data-aos-delay="300"
             data-aos-duration="400"
             data-aos-easing="linear"
@@ -19,7 +19,7 @@
       </div>
       <div class="text-center"
            data-aos="zoom-in"
-           data-aos-offset="0"
+           data-aos-offset="300px"
            data-aos-delay="300"
            data-aos-duration="400"
            data-aos-easing="linear"

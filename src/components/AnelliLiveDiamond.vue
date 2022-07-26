@@ -3,7 +3,7 @@
     <div class="anelli__1">
       <div class="anelli-content"
            data-aos="zoom-in"
-           data-aos-offset="0"
+           data-aos-offset="300px"
            data-aos-delay="100"
            data-aos-duration="400"
            data-aos-easing="linear"
@@ -18,7 +18,7 @@
       </div>
       <img
           data-aos="zoom-out-up"
-          data-aos-offset="0"
+          data-aos-offset="300px"
           data-aos-delay="300"
           data-aos-duration="400"
           data-aos-easing="linear"
@@ -26,7 +26,7 @@
           class="w-100 block anelli-image">
       <div class="text-center"
            data-aos="zoom-in"
-           data-aos-offset="0"
+           data-aos-offset="300px"
            data-aos-delay=""
            data-aos-duration="400"
            data-aos-easing="linear"
@@ -39,7 +39,7 @@
     <div class="anelli__2">
       <img
           data-aos="zoom-out-up"
-          data-aos-offset="0"
+          data-aos-offset="300px"
           data-aos-delay="200"
           data-aos-duration="400"
           data-aos-easing="linear"
