@@ -1,22 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div id="live-diamond">
+    <Hero></Hero>
+    <LabGrown></LabGrown>
+    <AnelliLiveDiamond></AnelliLiveDiamond>
+    <BraccialiLiveDiamond></BraccialiLiveDiamond>
+  </div>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+import Hero from './components/Hero.vue'
+import LabGrown from './components/LabGrown.vue'
+import AnelliLiveDiamond from './components/AnelliLiveDiamond.vue'
+import BraccialiLiveDiamond from './components/BraccialiLiveDiamond.vue'
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style scoped lang="scss">
+#live-diamond {
+  font-family: 'Montserrat', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1470px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px){
+  #live-diamond {
+    max-width: 600px;
+    *{
+      text-align: center;
+    }
+  }
 }
 </style>
