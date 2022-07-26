@@ -114,7 +114,7 @@ onMounted(() => {
     flex-direction: column;
     img{
       max-width: 100%;
-      flex: 0 0 100%;
+      flex: 0 0 auto;
     }
   }
   .hero-image-title__title{
