@@ -1,9 +1,9 @@
 <template>
-  <div class="block text-center anelli-title">
+  <div class="block text-center anelli-title" data-aos="fade-down">
     <Typography :heading="1">Anelli</Typography>
     <Typography :heading="2">&nbsp;Live diamond</Typography>
   </div>
-  <div class="block text-center anelli-text">
+  <div class="block text-center anelli-text" data-aos="fade-down">
     <Text>
       <strong>Oro bianco e diamanti</strong> nei modelli più amati di sempre per celebrare i vostri momenti speciali.
       <strong>Solitari, trilogy ed eternity</strong> in diverse carature per accompagnare gli attimi di una vita
@@ -43,7 +43,7 @@
   <div class="anelli-carousel">
     <CarouselVue :slide="slides"></CarouselVue>
   </div>
-  <div class="text-center anelli__link">
+  <div class="text-center anelli__link" data-aos="fade-down">
     <Link :link="linkButton">Collezioni anelli</Link>
   </div>
 </template>

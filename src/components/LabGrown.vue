@@ -1,12 +1,12 @@
 <template>
-  <div class="block text-center lab-grown-title">
+  <div class="block text-center lab-grown-title" data-aos="fade-down">
     <Typography :heading="2">Una scelta</Typography>
     <Typography :heading="1">&nbsp;d'amore</Typography>
   </div>
   <div class="lab-grown iframe iframe-hidden"
        data-video="https://player.vimeo.com/video/735434386?h=027f1194d5&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
   </div>
-  <div class="lab-grown-content__text-mobile text-center show-mobile">
+  <div class="lab-grown-content__text-mobile text-center show-mobile" data-aos="fade-down">
     <Text>
       Eleganza e design <strong>Made In Italy</strong> caratterizzano tutti i diamanti Live Diamond, che possiedono le stesse
       caratteristiche di lucentezza, purezza e caratura di un diamante tradizionale.
@@ -41,7 +41,7 @@
             src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Vericale_1_kDvM6p9S2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659346866613"/>
       </picture>
     </div>
-    <div class="lab-grown-content__text hidden-mobile">
+    <div class="lab-grown-content__text hidden-mobile" data-aos="fade-down">
       <Text>
         Eleganza e design <strong>Made In Italy</strong> caratterizzano tutti i diamanti Live Diamond, che possiedono le stesse
         caratteristiche di lucentezza, purezza e caratura di un diamante tradizionale.
@@ -59,7 +59,7 @@
       </div>
     </div>
   </div>
-  <div class="text-center lab-grown__link">
+  <div class="text-center lab-grown__link" data-aos="fade-down">
     <Link :link="linkButton">Acquista i best seller</Link>
   </div>
 </template>

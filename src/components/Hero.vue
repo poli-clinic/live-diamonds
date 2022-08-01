@@ -15,7 +15,7 @@
         class="img-cover"
         src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/ld_slider_1_1tA79JoFP.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659101601692">
   </picture>
-  <div class="hero__title">
+  <div class="hero__title" data-aos="fade-down">
     <div class="block text-center">
       <Typography :heading="1">Il Diamante</Typography>
     </div>
@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="text text-center">
+  <div class="text text-center" data-aos="fade-down">
     <Text>
       <strong>Live Diamond</strong> è il brand italiano di diamanti accresciuti in laboratorio, <strong>ecologici e
       socialmente compatibili</strong>. Ogni diamante viene realizzato attraverso un processo all’avanguardia che dà
@@ -32,7 +32,7 @@
     </Text>
   </div>
 
-  <div class="text-center hero__link">
+  <div class="text-center hero__link" data-aos="fade-down">
     <Link :link="linkButton">Scopri live diamond</Link>
   </div>
 

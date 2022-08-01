@@ -1,9 +1,9 @@
 <template>
-  <div class="block text-center bracciali-title">
+  <div class="block text-center bracciali-title" data-aos="fade-down">
     <Typography :heading="1">Bracciali</Typography>
     <Typography :heading="2">&nbsp;Live diamond</Typography>
   </div>
-  <div class="block text-center bracciali-text">
+  <div class="block text-center bracciali-text" data-aos="fade-down">
     <Text>
       <strong>I bracciali LIVE DIAMOND</strong> sono perfetti come idea regalo che possa durare nel tempo.<br> Da
       <strong>soli</strong> o nel <strong>multi indosso</strong> donano lucentezza ad ogni look.
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-  <div class="text-center bracciali__link">
+  <div class="text-center bracciali__link" data-aos="fade-down">
     <Link :link="linkButton">Collezioni bracciali</Link>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="block text-center footer-title">
+  <div class="block text-center footer-title" data-aos="fade-down">
     <div class="block text-center">
       <Typography :heading="2">In tendenza?</Typography>
     </div>
@@ -7,7 +7,7 @@
       <Typography :heading="1">Il multi-indosso</Typography>
     </div>
   </div>
-  <div class="block text-center footer-text">
+  <div class="block text-center footer-text" data-aos="fade-down">
     <Text>
       <strong>L’oro bianco 375%</strong> e <strong>i diamanti</strong> si uniscono per farti risplendere nei tuoi momenti speciali: sono perfetti per
       essere mixati tra loro e creare degli abbinamenti eleganti e mai banali.
@@ -16,7 +16,7 @@
   <div class="footer iframe iframe-hidden"
        data-video="https://player.vimeo.com/video/735434436?h=b76139c80a&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
   </div>
-  <div class="text-center footer__link">
+  <div class="text-center footer__link" data-aos="fade-down">
     <Link :link="linkButton">Lasciati ispirare</Link>
   </div>
 </template>
