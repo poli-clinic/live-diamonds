@@ -1,0 +1,117 @@
+<template>
+  <div class="block text-center footer-title">
+    <div class="block text-center">
+      <Typography :heading="2">In tendenza?</Typography>
+    </div>
+    <div class="block text-center">
+      <Typography :heading="1">Il multi-indosso</Typography>
+    </div>
+  </div>
+  <div class="block text-center footer-text">
+    <Text>
+      <strong>L’oro bianco 375%</strong> e <strong>i diamanti</strong> si uniscono per farti risplendere nei tuoi momenti speciali: sono perfetti per
+      essere mixati tra loro e creare degli abbinamenti eleganti e mai banali.
+    </Text>
+  </div>
+  <div class="footer iframe iframe-hidden"
+       data-video="https://player.vimeo.com/video/735434436?h=b76139c80a&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
+  </div>
+  <div class="text-center footer__link">
+    <Link :link="linkButton">Lasciati ispirare</Link>
+  </div>
+</template>
+
+<script setup>
+import {onMounted} from "@vue/runtime-core";
+import Typography from "./Typography.vue";
+import Text from "./Text.vue";
+import Link from "./Link.vue";
+import VLazyImage from "v-lazy-image";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+const linkButton = 'https://www.bluespirit.com/live-diamond-B222.htm';
+
+onMounted(() => {
+  AOS.init();
+  const sections = document.querySelectorAll('[data-video]')
+  const options = {
+    threshold: 0.3
+  }
+  const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !entry.target.classList.contains('stop')) {
+        entry.target.classList.add('stop');
+        let url = entry.target.getAttribute('data-video');
+        entry.target.innerHTML = createIframe(url);
+        entry.target.classList.remove('iframe-hidden');
+        entry.target.removeAttribute('data-video');
+      }
+    })
+  }, options)
+  sections.forEach(section => {
+    observer.observe(section)
+  })
+});
+
+function createIframe(url){
+  return '<iframe src="' + url + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%; z-index: 9;" title="" alt=""></iframe>';
+}
+</script>
+
+<style scoped>
+.iframe{
+  opacity: 1;
+  visibility: visible;
+  transition: all 2s linear;
+}
+
+.iframe-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.footer-title {
+  margin-bottom: 40px;
+}
+
+.footer {
+  height: 0;
+  padding-bottom: 56.25%;
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.img-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.block {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-text {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto 40px;
+}
+
+.footer__link{
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px){
+  .footer__link{
+    margin-bottom: 70px;
+  }
+}
+
+</style>

@@ -1,54 +1,50 @@
 <template>
-  <div class="anelli">
-    <div class="anelli__1">
-      <div class="anelli-content"
-           data-aos="zoom-in"
-           data-aos-offset="300px"
-           data-aos-delay="100"
-           data-aos-duration="400"
-           data-aos-easing="linear"
-      >
-        <Typography :heading="2">
-          Anelli live Diamond
-        </Typography>
-        <Text>
-          Oro bianco e diamanti nei modelli più amati di sempre per celebrare i vostri momenti speciali. Solitari,
-          trilogy ed eternity in diverse carature per accompagnare gli attimi di una vita insieme.
-        </Text>
-      </div>
-      <v-lazy-image alt="Anelli - Live Diamond" width="828" height="531"
-          data-aos="zoom-out-up"
-          data-aos-offset="300px"
-          data-aos-delay="300"
-          data-aos-duration="400"
-          data-aos-easing="linear"
-          src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/anelli_1_yHutgSNL7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658751508982"
-          class="w-100 block anelli-image" />
-      <div class="text-center"
-           data-aos="zoom-in"
-           data-aos-offset="300px"
-           data-aos-delay=""
-           data-aos-duration="400"
-           data-aos-easing="linear"
-      >
-        <Link :link="linkButton">
-          acquista i best seller
-        </Link>
-      </div>
+  <div class="block text-center anelli-title">
+    <Typography :heading="1">Anelli</Typography>
+    <Typography :heading="2">&nbsp;Live diamond</Typography>
+  </div>
+  <div class="block text-center anelli-text">
+    <Text>
+      <strong>Oro bianco e diamanti</strong> nei modelli più amati di sempre per celebrare i vostri momenti speciali.
+      <strong>Solitari, trilogy ed eternity</strong> in diverse carature per accompagnare gli attimi di una vita
+      insieme.
+    </Text>
+  </div>
+  <div class="anelli-content">
+    <div class="anelli-content__images">
+      <picture class="anelli-content__image">
+        <source
+            media="(max-width: 768px)" width="445" height="691"
+            srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_3_PNNOISoWp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439404">
+        <v-lazy-image
+            class="img-cover" alt="Anelli - Live Diamond" width="950" height="1170"
+            data-aos="zoom-out-up"
+            data-aos-offset=""
+            data-aos-delay=""
+            data-aos-duration="500"
+            data-aos-easing="linear"
+            src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/verticali_3_4ccmU1EzJ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659348750265"/>
+      </picture>
+      <picture class="anelli-content__image">
+        <source
+            media="(max-width: 768px)" width="445" height="691"
+            srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_4_6up_t7jEp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439228">
+        <v-lazy-image
+            class="img-cover" alt="Anelli - Live Diamond" width="950" height="1170"
+            data-aos="zoom-out-up"
+            data-aos-offset=""
+            data-aos-delay=""
+            data-aos-duration="500"
+            data-aos-easing="linear"
+            src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/verticali_4_CRVZQ_GsA.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659348750438"/>
+      </picture>
     </div>
-    <div class="anelli__2">
-      <v-lazy-image alt="Anelli - Live Diamond" width="552" height="552"
-          data-aos="zoom-out-up"
-          data-aos-offset="300px"
-          data-aos-delay="200"
-          data-aos-duration="400"
-          data-aos-easing="linear"
-          src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/anelli_2_yPuSNj8un.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658751509036"
-          class="w-100 block mb-2" />
-      <div class="anelli-carousel mb-2">
-        <CarouselVue :slide="slides"></CarouselVue>
-      </div>
-    </div>
+  </div>
+  <div class="anelli-carousel">
+    <CarouselVue :slide="slides"></CarouselVue>
+  </div>
+  <div class="text-center anelli__link">
+    <Link :link="linkButton">Collezioni anelli</Link>
   </div>
 </template>
 
@@ -88,82 +84,103 @@ onMounted(() => {
 
 </script>
 
-<style scoped>
-.anelli {
-  padding-left: 0px;
-  padding-right: 0px;
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 5rem;
-  position: relative;
-  width: 100%;
+<style scoped lang="scss">
+.anelli-title {
+  margin-bottom: 40px;
 }
 
-.anelli__1 {
-  flex: 0 1 60%;
-  max-width: 60%;
-  padding: 0 15px;
-}
-
-.w-100 {
-  width: 100%;
-  height: auto;
-}
-
-.block {
-  display: block;
-}
-
-.mb-2 {
-  margin-bottom: 2rem;
-}
-
-.anelli-content {
-  padding-left: 80px;
-}
-
-.anelli__2 {
-  flex: 0 1 40%;
-  max-width: 40%;
-  padding: 0 15px;
-}
-
-.anelli-carousel{
-  width: 100%;
-  max-width: 380px;
-  display: block;
-  margin: 0 auto;
-  border: 2px solid #215732;
-}
-
-.anelli-image{
-  margin-bottom: 4rem;
-}
-
-.text-center{
+.text-center {
   text-align: center;
 }
 
-@media (max-width: 767px) {
-  .anelli {
-    flex-wrap: wrap;
-  }
-  .anelli__1 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0px;
-    margin-bottom: 5rem;
+.anelli-text {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto 40px;
+}
+
+.anelli-content {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 97%;
+  margin-bottom: 40px;
+}
+
+.anelli-content__images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.anelli-content__image {
+  height: 0;
+  padding-bottom: 70%;
+  width: 58%;
+  position: absolute;
+
+  &:first-child {
+    top: 0;
+    left: 0;
+    z-index: 2;
   }
 
-  .anelli__2 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0px;
-  }
-
-  .anelli-content {
-    padding-left: 0px;
+  &:last-child {
+    right: 0;
+    z-index: 1;
+    bottom: 0%;
   }
 }
 
+.img-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.anelli-carousel {
+  width: 100%;
+  max-width: 30%;
+  display: block;
+  border: 2px solid #215732;
+  margin-left: 18%;
+  margin-top: -20%;
+  margin-bottom: 40px;
+  z-index: 3;
+  position: relative;
+}
+
+.anelli__link{
+  margin-bottom: 100px;
+}
+
+.show-mobile{
+  display: none;
+}
+
+@media (max-width: 768px){
+  .hidden-mobile{
+    display: none;
+  }
+  .show-mobile{
+    display: block;
+  }
+  .anelli__link{
+    margin-bottom: 70px;
+  }
+  .anelli-content {
+    padding-bottom: 115%;
+  }
+  .anelli-content__image {
+    padding-bottom: 73%;
+  }
+  .anelli-carousel{
+    max-width: 50%;
+    margin-left: 10%;
+    margin-top: -30%;
+  }
+}
 </style>

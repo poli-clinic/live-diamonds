@@ -4,6 +4,7 @@
     <LabGrown></LabGrown>
     <AnelliLiveDiamond></AnelliLiveDiamond>
     <BraccialiLiveDiamond></BraccialiLiveDiamond>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from './components/Hero.vue'
 import LabGrown from './components/LabGrown.vue'
 import AnelliLiveDiamond from './components/AnelliLiveDiamond.vue'
 import BraccialiLiveDiamond from './components/BraccialiLiveDiamond.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <style scoped lang="scss">
@@ -20,22 +22,20 @@ import BraccialiLiveDiamond from './components/BraccialiLiveDiamond.vue'
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  margin-top: 40px;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  max-width: 1470px;
+  max-width: 1640px;
   overflow: hidden;
 }
 
 @media (max-width: 768px){
   #live-diamond {
-    max-width: 600px;
-    *{
-      text-align: center;
-    }
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 </style>

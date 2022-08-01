@@ -4,15 +4,19 @@
 
 <style scoped>
   p{
-    color: #3e3e3e;
-    font-size: 1.3rem;
-    line-height: 1.5;
+    color: #404040;
+    font-size: 20px;
+    line-height: 26px;
     margin-top: 0;
     margin-bottom: 2rem;
   }
   @media (max-width: 768px){
     p{
-      font-size: 1rem;
+      font-size: 18px;
+      line-height: 23px;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 </style>

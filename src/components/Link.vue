@@ -17,12 +17,13 @@ export default {
   a{
     text-transform: uppercase;
     display: inline-block;
-    padding: 5px 0;
-    color: #215732;
-    font-weight: 600;
+    padding: 2px 0;
+    color: #1A5632;
+    font-weight: 500;
     text-decoration: none;
-    font-size: 1.4rem;
-    border-bottom: 2px solid #215732;
+    font-size: 28px;
+    line-height: 34px;
+    border-bottom: 1px solid #215732;
   }
   a:hover{
     border-color: #215732;
@@ -30,7 +31,8 @@ export default {
 
   @media (max-width: 768px){
     a{
-      font-size: 1rem;
+      font-size: 24px;
+      line-height: 29px;
     }
   }
 </style>

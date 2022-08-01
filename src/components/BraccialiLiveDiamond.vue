@@ -1,54 +1,39 @@
 <template>
-  <div class="bracciali">
-    <div class="bracciali__1">
-      <Typography :heading="2" data-aos="zoom-in"
-                  data-aos-offset="300px"
-                  data-aos-delay="100"
-                  data-aos-duration="400"
-                  data-aos-easing="linear">
-        Bracciali live Diamond
-      </Typography>
-      <div class="bracciali__content">
-        <div
-            data-aos="zoom-in"
-            data-aos-offset="300px"
-            data-aos-delay="300"
-            data-aos-duration="400"
+  <div class="block text-center bracciali-title">
+    <Typography :heading="1">Bracciali</Typography>
+    <Typography :heading="2">&nbsp;Live diamond</Typography>
+  </div>
+  <div class="block text-center bracciali-text">
+    <Text>
+      <strong>I bracciali LIVE DIAMOND</strong> sono perfetti come idea regalo che possa durare nel tempo.<br> Da
+      <strong>soli</strong> o nel <strong>multi indosso</strong> donano lucentezza ad ogni look.
+      insieme.
+    </Text>
+  </div>
+  <div class="bracciali-content">
+    <div class="bracciali-content__image">
+      <picture class="bracciali-image">
+        <source
+            media="(max-width: 768px)" width="445" height="691"
+            srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_5_McAq42UlH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439264">
+        <v-lazy-image
+            class="img-cover" alt="Anelli - Live Diamond" width="950" height="1170"
+            data-aos="zoom-out-up"
+            data-aos-offset=""
+            data-aos-delay=""
+            data-aos-duration="500"
             data-aos-easing="linear"
-        >
-          <Text>
-            I bracciali LIVE DIAMOND, per versatilità ed eleganza, sono perfetti come idea regalo che possa durare nel
-            tempo. Da soli o nel multindosso donano lucentezza ad ogni look.
-          </Text>
-        </div>
-
-        <div class="bracciali-carousel mb-2">
-          <CarouselVue :slide="slides"></CarouselVue>
-        </div>
-        <div class="text-center"
-             data-aos="zoom-in"
-             data-aos-offset="300px"
-             data-aos-delay="100"
-             data-aos-duration="400"
-             data-aos-easing="linear"
-        >
-          <Link :link="linkButton">
-            Collezioni bracciali
-          </Link>
-        </div>
+            src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/verticali_5_lcw7YNeMZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659351175879"/>
+      </picture>
+    </div>
+    <div class="bracciali-content__carousel">
+      <div class="bracciali-carousel">
+        <CarouselVue :slide="slides"></CarouselVue>
       </div>
     </div>
-    <div class="bracciali__image"
-         data-aos="zoom-out-up"
-         data-aos-offset="300px"
-         data-aos-delay="200"
-         data-aos-duration="400"
-         data-aos-easing="linear"
-    >
-      <v-lazy-image alt="Bracciali - Live Diamond" width="531" height="665"
-          src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/bracciali_WGxLpRosy.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658752425564"
-          class="block w-100" />
-    </div>
+  </div>
+  <div class="text-center bracciali__link">
+    <Link :link="linkButton">Collezioni bracciali</Link>
   </div>
 </template>
 
@@ -89,90 +74,108 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-.bracciali {
-  padding-left: 10%;
-  padding-right: 20%;
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 5rem;
-  position: relative;
-}
-
-.bracciali__1 {
-  flex: 0 1 60%;
-  max-width: 60%;
-  padding: 0 15px;
-  position: relative;
-  z-index: 2;
-}
-
-.bracciali-carousel {
-  width: 100%;
-  max-width: 380px;
-  display: block;
-  margin: 0 auto;
-  border: 2px solid #215732;
-}
-
-.mb-2 {
-  margin-bottom: 2rem;
+.bracciali-title {
+  margin-bottom: 40px;
 }
 
 .text-center {
   text-align: center;
 }
 
-.bracciali__image {
-  flex: 0 1 40%;
-  max-width: 40%;
-  padding: 0 15px;
-  position: relative;
+.bracciali-text {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto 40px;
+}
 
-  img {
-    position: absolute;
-    right: 0;
-    width: 130%;
-    height: auto;
+.bracciali-content{
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  align-items: center;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
 }
 
-.block {
+.bracciali-content__image{
+  flex: 0 0 58%;
+  max-width: 58%;
+  padding: 0 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.bracciali-content__carousel{
+  flex: 0 0 42%;
+  max-width: 42%;
+  padding: 0 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.bracciali-image{
+  width: 100%;
+  position: relative;
+  padding-bottom: 115%;
   display: block;
 }
 
-.bracciali__content {
-  padding-right: 190px;
+.img-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-@media (max-width: 1300px){
-  .bracciali{
-    padding: 0 15px;
-  }
-  .bracciali__content {
-    padding-right: 0px;
-  }
+.bracciali-carousel {
+  display: block;
+  border: 2px solid #215732;
+  margin: 0 auto;
+  max-width: 530px;
+  width: 100%;
+}
 
-  .bracciali__image img {
-    width: 100%;
+.bracciali__link{
+  margin-bottom: 100px;
+}
+
+.show-mobile{
+  display: none;
+}
+
+@media (max-width: 768px){
+  .hidden-mobile{
+    display: none;
+  }
+  .show-mobile{
+    display: block;
+  }
+  .bracciali__link{
+    margin-bottom: 70px;
+  }
+  .bracciali-content__image {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .bracciali-image{
+    padding-bottom: 140%;
+  }
+  .bracciali-content{
     position: relative;
   }
-}
-
-@media (max-width: 767px){
-  .bracciali {
-    flex-wrap: wrap;
-  }
-  .bracciali__1 {
-    flex: 0 0 100%;
-    max-width: 100%;
+  .bracciali-content__carousel {
+    max-width: 50%;
     padding: 0;
-    margin-bottom: 3rem;
-  }
-  .bracciali__image {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0px;
+    z-index: 2;
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+    width: 100%;
   }
 }
-
 </style>

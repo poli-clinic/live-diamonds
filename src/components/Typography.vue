@@ -7,15 +7,46 @@
 </template>
 
 <style scoped lang="scss">
-  h2{ font-size: 2rem; text-transform: uppercase }
-  h3{ font-size: 2.5rem; font-weight: 600; text-transform: uppercase }
+  h2{
+    font-size: 49px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  h3{
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic;
+  }
   h4{ font-size: 1.5rem; }
   h5{ font-size: 1.15rem; text-transform: uppercase; }
   h6{ font-size: 1rem; }
 
   *{
-    color: #215732;
+    color: #1A5632;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: inline-block;
+  }
+
+  @media (max-width: 768px){
+    h2{
+      font-size: 36px;
+    }
+    h3{
+      font-size: 32px;
+    }
+    *{
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media (max-width: 390px){
+    h2{
+      font-size: 32px;
+    }
   }
 </style>
 
