@@ -55,7 +55,7 @@ onMounted(() => {
 });
 
 function createIframe(url){
-  return '<iframe src="' + url + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%; z-index: 9;" title="" alt=""></iframe>';
+  return '<iframe src="' + url + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%; z-index: 9;" title="Video - Live Diamond" alt="Video - Live Diamond"></iframe>';
 }
 </script>
 
