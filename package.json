@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "intersection-observer": "^0.12.2",
     "v-lazy-image": "^2.1.1",
     "vue": "^3.0.5",
