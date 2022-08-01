@@ -16,7 +16,7 @@
   <div class="footer iframe iframe-hidden"
        data-video="https://player.vimeo.com/video/735434436?h=b76139c80a&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
   </div>
-  <div class="text-center footer__link" data-aos="fade-down">
+  <div class="text-center footer__link">
     <Link :link="linkButton">Lasciati ispirare</Link>
   </div>
 </template>
