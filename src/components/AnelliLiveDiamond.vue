@@ -64,17 +64,17 @@ const slides = [
   {
     title: 'Live Diamond - Anelli 1',
     link: 'https://www.bluespirit.com/anello-live-diamond-live-diamond-ld01503012-P73411.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/anelli_1_U1vPJrMDh.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412498'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD01503012_ANELLI_FO0vnD4KJ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729378'
   },
   {
     title: 'Live Diamond - Anelli 2',
     link: 'https://www.bluespirit.com/anello-live-diamond-live-diamond-ld00504010-P73402.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/anelli_2_Ihyqohx7z.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412511'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD00504010_ANELLI_Z0gTebQ3v.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729584'
   },
   {
     title: 'Live Diamond - Anelli 3',
     link: 'https://www.bluespirit.com/anello-live-diamond-live-diamond-ld05036010i-P79762.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/anelli_3_gMotPNN393.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755414913'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD05036010I_ANELLI_ae9uwiihR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729462'
   }
 ];
 

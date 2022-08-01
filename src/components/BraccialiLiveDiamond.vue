@@ -53,17 +53,17 @@ const slides = [
   {
     title: 'Live Diamond - Bracciali 1',
     link: 'https://www.bluespirit.com/bracciale-live-diamond-live-diamond-ld05615-P73434.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bracciali_1_y3bcBdeQFD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412590'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD05615_BRACCIALI_82tiG9zCbS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365730317'
   },
   {
     title: 'Live Diamond - Bracciali 2',
     link: 'https://www.bluespirit.com/bracciale-live-diamond-live-diamond-ld71439i-P79828.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bracciali_2_fk515P02I.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755413546'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD71439I_BRACCIALI_t3O8W7BxWJ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729314'
   },
   {
     title: 'Live Diamond - Bracciali 3',
     link: 'https://www.bluespirit.com/bracciale-live-diamond-live-diamond-ld851041i-P79935.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bracciali_3_PhDycRq6R.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412547'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD851041I_BRACCIALI_iTWu51456.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729213'
   }
 ];
 

@@ -80,22 +80,22 @@ const slides = [
   {
     title: 'Live Diamond - Best Seller 1',
     link: 'https://www.bluespirit.com/collana-live-diamond-live-diamond-ld00508-P73403.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bestseller_1_Rq7MNmoRp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412518'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD00508_best_seller_jpg_QPPaHFYhe.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729206'
   },
   {
     title: 'Live Diamond - Best Seller 2',
     link: 'https://www.bluespirit.com/collana-live-diamond-lab-grown-p77q310000600-P68708.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bestseller_2_Wc7apzvAy.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755414390'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/P.77Q310000600_best_seller_pnBtwy22Ws.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365730070'
   },
   {
     title: 'Live Diamond - Best Seller 3',
     link: 'https://www.bluespirit.com/anello-live-diamond-live-diamond-ld04034010i-P79755.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bestseller_3_OBzeSLMRB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412531'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD04034010I_best_seller_5C3qsaip5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365730176'
   },
   {
     title: 'Live Diamond - Best Seller 4',
     link: 'https://www.bluespirit.com/orecchini-live-diamond-live-diamond-ld01002-P73406.htm',
-    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/bestseller_4_MBwKRfCQDS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658755412518'
+    image: 'https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Caroselli/LD01002_best_sellerjpg_v7PFNIRzK.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659365729666'
   }
 ];
 
