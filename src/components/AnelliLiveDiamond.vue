@@ -79,7 +79,7 @@ const slides = [
 ];
 
 onMounted(() => {
-  AOS.init();
+  AOS.init({once: true, mirror: false});
 });
 
 </script>
@@ -103,7 +103,7 @@ onMounted(() => {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 97%;
+  padding-bottom: 105%;
   margin-bottom: 40px;
 }
 

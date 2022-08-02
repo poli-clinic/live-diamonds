@@ -68,7 +68,7 @@ const slides = [
 ];
 
 onMounted(() => {
-  AOS.init();
+  AOS.init({once: true, mirror: false});
 });
 
 </script>

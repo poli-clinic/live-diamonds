@@ -7,6 +7,10 @@
         </a>
       </div>
     </slide>
+    <template #addons>
+      <navigation />
+      <pagination />
+    </template>
   </carousel>
 </template>
 
@@ -66,5 +70,33 @@ export default {
     left: 0;
   }
 }
+
+.carousel__icon {
+  fill: #1A5632;
+  width: 50px;
+  height: 50px;
+}
+
+.carousel__next {
+  transform: translate(0%, -50%);
+}
+
+.carousel__prev {
+  transform: translate(0%, -50%);
+}
+
+.carousel__prev, .carousel__next {
+  background-color: transparent;
+  border-radius: 0;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px){
+  .carousel__prev, .carousel__next {
+    display: none;
+  }
+}
+
 /* purgecss end ignore */
 </style>

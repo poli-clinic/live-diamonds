@@ -33,7 +33,7 @@ import 'aos/dist/aos.css'
 const linkButton = 'https://www.bluespirit.com/live-diamond-B222.htm';
 
 onMounted(() => {
-  AOS.init();
+  AOS.init({once: true, mirror: false});
   const sections = document.querySelectorAll('[data-video]')
   const options = {
     threshold: 0.3
