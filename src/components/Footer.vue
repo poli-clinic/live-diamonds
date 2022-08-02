@@ -1,5 +1,5 @@
 <template>
-  <div class="block text-center footer-title" data-aos="fade-down">
+  <div class="block text-center footer-title" data-sal="slide-down">
     <div class="block text-center">
       <Typography :heading="2">In tendenza?</Typography>
     </div>
@@ -26,14 +26,17 @@ import {onMounted} from "@vue/runtime-core";
 import Typography from "./Typography.vue";
 import Text from "./Text.vue";
 import Link from "./Link.vue";
-import VLazyImage from "v-lazy-image";
-import AOS from 'aos';
+import AOS from "aos";
 import 'aos/dist/aos.css'
 
 const linkButton = 'https://www.bluespirit.com/live-diamond-B222.htm';
 
 onMounted(() => {
-  AOS.init({once: true, mirror: false});
+  AOS.init({
+    mirror:false,
+    once: true
+  });
+
   const sections = document.querySelectorAll('[data-video]')
   const options = {
     threshold: 0.3

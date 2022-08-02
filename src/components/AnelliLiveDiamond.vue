@@ -12,30 +12,20 @@
   </div>
   <div class="anelli-content">
     <div class="anelli-content__images">
-      <picture class="anelli-content__image">
+      <picture class="anelli-content__image" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500">
         <source
             media="(max-width: 768px)" width="445" height="691"
             srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_3_PNNOISoWp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439404">
         <v-lazy-image
             class="img-cover" alt="Anelli - Live Diamond" width="950" height="1170"
-            data-aos="zoom-out-up"
-            data-aos-offset=""
-            data-aos-delay=""
-            data-aos-duration="500"
-            data-aos-easing="linear"
             src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/verticali_3_4ccmU1EzJ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659348750265"/>
       </picture>
-      <picture class="anelli-content__image">
+      <picture class="anelli-content__image" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500">
         <source
             media="(max-width: 768px)" width="445" height="691"
             srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_4_6up_t7jEp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439228">
         <v-lazy-image
             class="img-cover" alt="Anelli - Live Diamond" width="950" height="1170"
-            data-aos="zoom-out-up"
-            data-aos-offset=""
-            data-aos-delay=""
-            data-aos-duration="500"
-            data-aos-easing="linear"
             src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/verticali_4_CRVZQ_GsA.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659348750438"/>
       </picture>
     </div>
@@ -55,7 +45,7 @@ import Typography from "./Typography.vue";
 import Text from "./Text.vue";
 import Link from "./Link.vue";
 import VLazyImage from "v-lazy-image";
-import AOS from 'aos';
+import AOS from "aos";
 import 'aos/dist/aos.css'
 
 const linkButton = 'https://www.bluespirit.com/anelli-live-diamond-C5B222.htm';
@@ -79,7 +69,10 @@ const slides = [
 ];
 
 onMounted(() => {
-  AOS.init({once: true, mirror: false});
+  AOS.init({
+    mirror:false,
+    once: true
+  });
 });
 
 </script>

@@ -68,6 +68,12 @@ export default {
     object-fit: cover;
     top: 0;
     left: 0;
+    transition: all .2s ease-in-out;
+  }
+  &:hover{
+    img{
+      transform: scale(1.1);
+    }
   }
 }
 

@@ -14,30 +14,21 @@
   </div>
   <div class="lab-grown-content">
     <div class="lab-grown-content__images">
-      <picture class="lab-grown-content__image">
+      <picture class="lab-grown-content__image" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500">
         <source
             media="(max-width: 768px)" width="445" height="691"
             srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_2_375l1-Bes.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439298">
         <v-lazy-image
             class="img-cover" alt="Una scelta d'amore - Live Diamond" width="950" height="1170"
-            data-aos="zoom-out-up"
-            data-aos-offset=""
-            data-aos-delay=""
-            data-aos-duration="500"
-            data-aos-easing="linear"
+
             src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Verticale_2_gdmU3Y--v.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659346866471"/>
       </picture>
-      <picture class="lab-grown-content__image">
+      <picture class="lab-grown-content__image" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500">
         <source
             media="(max-width: 768px)" width="445" height="691"
             srcset="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/mobile/verticale_1_UTCgjdmPW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659357439308">
         <v-lazy-image
             class="img-cover" alt="Una scelta d'amore - Live Diamond" width="950" height="1170"
-            data-aos="zoom-out-up"
-            data-aos-offset=""
-            data-aos-delay=""
-            data-aos-duration="500"
-            data-aos-easing="linear"
             src="https://ik.imagekit.io/vj78ie3kf/Live_Diamond/Vericale_1_kDvM6p9S2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659346866613"/>
       </picture>
     </div>
@@ -100,7 +91,12 @@ const slides = [
 ];
 
 onMounted(() => {
-  AOS.init({once: true, mirror: false});
+
+  AOS.init({
+    mirror:false,
+    once: true
+  });
+
   const sections = document.querySelectorAll('[data-video]')
   const options = {
     threshold: 0.2
@@ -240,6 +236,14 @@ function createIframe(url){
   padding-bottom: 100%;
   box-sizing: border-box;
   overflow: hidden;
+  img{
+    transition: all .2s ease-in-out !important;
+  }
+  &:hover{
+    img{
+      transform: scale(1.1) !important;
+    }
+  }
 }
 
 .lab-grown__link{

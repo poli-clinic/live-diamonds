@@ -49,7 +49,10 @@ import 'aos/dist/aos.css'
 const linkButton = 'https://www.bluespirit.com/live-diamond-B222.htm';
 
 onMounted(() => {
-  AOS.init({once: true, mirror: false});
+  AOS.init({
+    mirror:false,
+    once: true
+  });
 });
 </script>
 
