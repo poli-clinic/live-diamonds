@@ -4,7 +4,7 @@
     <Typography :heading="1">&nbsp;d'amore</Typography>
   </div>
   <div class="lab-grown iframe iframe-hidden"
-       data-video="https://player.vimeo.com/video/735434386?h=027f1194d5&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
+       data-video="https://player.vimeo.com/video/736200793?h=027f1194d5&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
   </div>
   <div class="lab-grown-content__text-mobile text-center show-mobile" data-aos="fade-down">
     <Text>
@@ -99,7 +99,7 @@ onMounted(() => {
 
   const sections = document.querySelectorAll('[data-video]')
   const options = {
-    threshold: 0.2
+    threshold: 0
   }
   const observer = new IntersectionObserver(function(entries, observer) {
     entries.forEach(entry => {
