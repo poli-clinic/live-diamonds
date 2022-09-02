@@ -28,7 +28,7 @@ import Footer from './components/Footer.vue'
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  max-width: 1640px;
+  max-width: 1240px;
   overflow: hidden;
 }
 
