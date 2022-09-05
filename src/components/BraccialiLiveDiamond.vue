@@ -7,7 +7,6 @@
     <Text>
       <strong>I bracciali LIVE DIAMOND</strong> sono perfetti come idea regalo che possa durare nel tempo.<br> Da
       <strong>soli</strong> o nel <strong>multi indosso</strong> donano lucentezza ad ogni look.
-      insieme.
     </Text>
   </div>
   <div class="bracciali-content">
