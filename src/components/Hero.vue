@@ -1,9 +1,9 @@
 <template>
   <picture class="hero"
-       data-aos="zoom-out-up"
-       data-aos-delay="0"
-       data-aos-duration="400"
-       data-aos-easing="linear"
+           data-aos="zoom-out-up"
+           data-aos-delay="0"
+           data-aos-duration="400"
+           data-aos-easing="linear"
   >
     <source
         media="(max-width: 768px)"
@@ -17,18 +17,18 @@
   </picture>
   <div class="hero__title" data-aos="fade-down">
     <div class="block text-center">
-      <Typography :heading="1">Il Diamante</Typography>
+      <Typography :heading="1">Live diamond:</Typography>
     </div>
     <div class="block text-center">
-      <Typography :heading="2">che ama il pianeta</Typography>
+      <Typography :heading="2">100% sostenibile</Typography>
     </div>
   </div>
 
   <div class="text text-center" data-aos="fade-down">
     <Text>
-      <strong>Live Diamond</strong> è il brand italiano di diamanti accresciuti in laboratorio, <strong>ecologici e
-      socialmente compatibili</strong>. Ogni diamante viene realizzato attraverso un processo all’avanguardia che dà
-      vita a pietre di grande qualità ma senza estrarle dal suolo, limitando i danni per <strong>l’ambiente</strong>.
+      Live Diamond è il marchio italiano specializzato nella produzione di <strong>gioielli sostenibili</strong> in oro
+      riciclato e diamanti e pietre ecologiche. Ogni diamante viene realizzato attraverso un processo all’avanguardia
+      che dà vita a pietre di grande qualità, limitando l’estrazione dal suolo e i danni per l’ambiente.
     </Text>
   </div>
 
@@ -46,11 +46,11 @@ import Link from "./Link.vue";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
-const linkButton = 'https://www.bluespirit.com/live-diamond-B222.htm';
+const linkButton = 'https://www.bluespirit.com/live-diamond-B222.htm?order_by=wanted&order_dir=desc';
 
 onMounted(() => {
   AOS.init({
-    mirror:false,
+    mirror: false,
     once: true
   });
 });
@@ -87,25 +87,27 @@ onMounted(() => {
   width: 100%;
   max-width: 1088px;
 }
-.hero__title{
+
+.hero__title {
   margin-bottom: 40px;
 }
-.hero__link{
+
+.hero__link {
   margin-bottom: 100px;
 }
 
-.show-mobile{
+.show-mobile {
   display: none;
 }
 
-@media (max-width: 768px){
-  .hidden-mobile{
+@media (max-width: 768px) {
+  .hidden-mobile {
     display: none;
   }
-  .show-mobile{
+  .show-mobile {
     display: block;
   }
-  .hero__link{
+  .hero__link {
     margin-bottom: 70px;
   }
   .hero {
