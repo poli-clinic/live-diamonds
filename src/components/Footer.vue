@@ -9,7 +9,7 @@
   </div>
   <div class="block text-center footer-text" data-aos="fade-down">
     <Text>
-      <strong>L’oro bianco 375%</strong> e <strong>i diamanti</strong> si uniscono per farti risplendere nei tuoi momenti speciali: sono perfetti per
+      <strong>L’oro</strong> e <strong>i diamanti</strong> si uniscono per farti risplendere nei tuoi momenti speciali: sono perfetti per
       essere mixati tra loro e creare degli abbinamenti eleganti e mai banali.
     </Text>
   </div>

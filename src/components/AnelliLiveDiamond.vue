@@ -5,7 +5,7 @@
   </div>
   <div class="block text-center anelli-text" data-aos="fade-down">
     <Text>
-      <strong>Oro bianco e diamanti</strong> nei modelli più amati di sempre per celebrare i vostri momenti speciali.
+      <strong>Oro riciclato e diamanti</strong> nei modelli più amati di sempre per celebrare i vostri momenti speciali.
       <strong>Solitari, trilogy ed eternity</strong> in diverse carature per accompagnare gli attimi di una vita
       insieme.
     </Text>
