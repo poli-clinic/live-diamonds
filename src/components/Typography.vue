@@ -24,10 +24,10 @@
   h6{ font-size: 1rem; }
 
   *{
-    color: #1A5632;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    display: inline-block;
+    color: #1A5632 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 0 !important;
+    display: inline-block !important;
   }
 
   @media (max-width: 768px){
