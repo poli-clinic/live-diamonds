@@ -28,6 +28,8 @@
     font-family: 'Montserrat', sans-serif !important;
     margin: 0 !important;
     display: inline-block !important;
+    hyphens: none;
+    word-wrap: unset;
   }
 
   @media (max-width: 768px){

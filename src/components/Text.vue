@@ -9,6 +9,8 @@
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 2rem;
+    hyphens: none;
+    word-wrap: unset;
   }
   @media (max-width: 768px){
     p{

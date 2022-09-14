@@ -30,6 +30,8 @@ import Footer from './components/Footer.vue'
   width: 100%;
   max-width: 1240px;
   overflow: hidden;
+  hyphens: none;
+  word-wrap: unset;
   *{
     hyphens: none;
     word-wrap: unset;
