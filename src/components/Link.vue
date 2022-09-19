@@ -24,6 +24,7 @@ export default {
     font-size: 28px;
     line-height: 34px;
     border-bottom: 1px solid #215732;
+    -webkit-hyphens: none;
   }
   a:hover{
     border-color: #215732;

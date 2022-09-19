@@ -30,6 +30,7 @@
     display: inline-block !important;
     hyphens: none;
     word-wrap: unset;
+    -webkit-hyphens: none;
   }
 
   @media (max-width: 768px){

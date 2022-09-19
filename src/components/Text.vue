@@ -11,6 +11,7 @@
     margin-bottom: 2rem;
     hyphens: none;
     word-wrap: unset;
+    -webkit-hyphens: none;
   }
   @media (max-width: 768px){
     p{
