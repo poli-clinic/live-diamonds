@@ -3,7 +3,7 @@
     <Typography :heading="2">Una scelta</Typography>
     <Typography :heading="1">&nbsp;d'amore</Typography>
   </div>
-  <div class="lab-grown iframe iframe-hidden"
+  <div class="lab-grown iframe" style="background-image: url('https://ik.imagekit.io/vj78ie3kf/Live_Diamond/LD_1_6mb_edit_1__9za6nWu8v.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663688213430'); background-size: cover; background-repeat: no-repeat"
        data-video="https://player.vimeo.com/video/751165343?h=4dd3b5c4ec&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
   </div>
   <div class="lab-grown-content__text-mobile text-center show-mobile" data-aos="fade-down">

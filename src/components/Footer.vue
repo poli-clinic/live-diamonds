@@ -13,7 +13,7 @@
       essere mixati tra loro e creare degli abbinamenti eleganti e mai banali.
     </Text>
   </div>
-  <div class="footer iframe iframe-hidden"
+  <div class="footer iframe" style="background-image: url('https://ik.imagekit.io/vj78ie3kf/Live_Diamond/LD_9_3mb_edit_2_8n-o79g2Y.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663688287346'); background-size: cover; background-repeat: no-repeat"
        data-video="https://player.vimeo.com/video/751165464?h=2e3b797906&badge=0&autoplay=1&muted=1&background=1&autopause=0&player_id=0&app_id=58479">
   </div>
   <div class="text-center footer__link">
